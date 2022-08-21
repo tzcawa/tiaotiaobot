@@ -1,5 +1,5 @@
 # tiaotiaobot
-a QQ bot that likes tiao tiao, and is more stupid than willbot.
+a QQ bot that likes tiao tiao, and is more stupid than [willbot](//github.com/ForkKILLET/WillBot).
 
 ![](https://www.emojiall.com/img/platform/qq/041@2x.gif)![](https://www.emojiall.com/img/platform/qq/041@2x.gif)![](https://www.emojiall.com/img/platform/qq/041@2x.gif)![](https://www.emojiall.com/img/platform/qq/041@2x.gif)
 
