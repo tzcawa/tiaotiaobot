@@ -2,7 +2,7 @@
 const {segment}=require("oicq");
 const {bot,debug}=require("./index");
 const {exeCmd}=require("./command");
-const groupId=757284566;
+const groupId=0;/* your QQ group */
 // message reply
 if(debug) bot.on("message",function(msg){
 	if(msg.group_id==groupId) return;
@@ -38,9 +38,3 @@ else bot.on("message.group",function(msg){
 		exeCmd(s,msg);
 	}
 });
-
-// // 接收戳一戳
-// bot.on("notice.group.poke", function (e) {
-// 	if (e.target_id === this.uin)
-// 		e.group.sendMsg("dont poke me")
-// })

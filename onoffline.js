@@ -1,7 +1,7 @@
 "use strict"
 const {bot,debug}=require("./index")
 
-const groupId=757284566;
+const groupId=0;/* your QQ group */
 let target={};
 if(!debug) bot.on("system.online",function(){
 	target=bot.pickGroup(groupId);

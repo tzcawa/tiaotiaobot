@@ -1,7 +1,7 @@
 "use strict";
 const {createClient}=require("oicq");
 
-const account=3564858722;
+const account=0;/* bot's QQ account */
 const bot=createClient(account);
 const debug=0;
 
